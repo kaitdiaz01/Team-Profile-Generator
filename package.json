@@ -1,0 +1,27 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "OOP based",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaitdiaz01/Team-Profile-Generator.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaitdiaz01/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/kaitdiaz01/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.2",
+    "jest": "^28.0.0"
+  }
+}
