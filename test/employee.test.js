@@ -17,10 +17,10 @@ describe("Employee", () => {
 
     })
     
-    //   it("can set an email with a construcor argument", () => {
-    //         const email = "rocket@test.com"
-    //         const e = new Employee(name,email);
-    //         expect(e.email).toBe(email);
-    //     })
+      it("can set an email with a construcor argument", () => {
+            const email = "rocket@test.com"
+            const e = new Employee(name,email);
+            expect(e.email).toBe(email);
+        })
   
 })

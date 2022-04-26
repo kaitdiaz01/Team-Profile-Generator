@@ -2,9 +2,9 @@
 // if statement to say if intern is chosen then render intern card template literal and call this function to retunr template literal into generatehtml()
 // would do the same for engineerCard()
 
-
-function generateHTML(data) {
-    return `<!DOCTYPE html>
+function generateHTML(team) {
+  console.log(team);
+  return `<!DOCTYPE html>
     <html lang="en">
       <head>
         <meta charset="UTF-8" />
@@ -25,18 +25,19 @@ function generateHTML(data) {
         </header>
         <div class="container">
           <div class="row justify-content-center">
-            <div class="card mb-3 mr-3" style="width: 18rem">
+          ${team.map((member) => { 
+            return `<div class="card mb-3 mr-3" style="width: 18rem">
               <div class="card-header">
-                <h1>${data.managername}</h1>
-                <h2>Manager</h2>
-
+                <h1>${member.name}</h1>
+                <h2>${member.getRole()}</h2>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">ID: ${data.employeeid}</li>
-                <li class="list-group-item">Email: ${data.email}</li>
-                <li class="list-group-item">Office Number: ${data.officenumber}</li>
+                <li class="list-group-item">ID: ${member.id}</li>
+                <li class="list-group-item">Email: ${member.email}</li>
               </ul>
-            </div>
+            </div>`
+          }).join("")}
+           
           </div>
         </div>
         
@@ -57,7 +58,7 @@ function generateHTML(data) {
         crossorigin="anonymous"
       ></script>
     </html>
-    `
-;}
+    `;
+}
 
 module.exports = generateHTML;
