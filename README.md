@@ -4,7 +4,7 @@
 
 > A node.js command line app that will take in information about employees on a software engineering team, then generate an HTML webpage that displays summaries for each person.
 
-### 🏠 [Homepage](https://github.com/kaitdiaz01/Team-Profile-Generator#readme)
+### 🏠 [Live Sample Page](https://kaitdiaz01.github.io/Team-Profile-Generator/)
 
 ### ✨ [Demo Walkthrough Video](https://drive.google.com/file/d/1-E_HQHd5HvchtNimBE-vmnWuJWACM-R3/view)
 
