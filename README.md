@@ -6,7 +6,7 @@
 
 ### 🏠 [Homepage](https://github.com/kaitdiaz01/Team-Profile-Generator#readme)
 
-### ✨ [Demo](https://kaitdiaz01.github.io/Team-Profile-Generator/)
+### ✨ [Demo Walkthrough Video](https://drive.google.com/file/d/1-E_HQHd5HvchtNimBE-vmnWuJWACM-R3/view)
 
 ## Install
 
@@ -17,7 +17,7 @@ npm install
 ## Run tests
 
 ```sh
-npm run test
+npm test
 ```
 
 ## Author
