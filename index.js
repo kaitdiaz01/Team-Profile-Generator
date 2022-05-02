@@ -98,7 +98,7 @@ const buildTeam = function () {
         addIntern();
       } else {
         const html = templateHTML(team);
-        fs.writeFile(`./dist/index.html`, html, (err) =>
+        fs.writeFile(`./index.html`, html, (err) =>
           err ? console.log(err) : console.log("Success!")
         );
       }

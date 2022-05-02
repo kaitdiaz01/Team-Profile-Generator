@@ -22,7 +22,7 @@ function generateHTML(team) {
         <link rel="stylesheet" href="../dist/style.css" />
       </head>
       <body>
-        <header class="jumbotron text-center">
+        <header class="jumbotron text-center" style="background-color:blue; color:white;">
           <h1 class="display-4">My Team</h1>
         </header>
         <div class="container">
@@ -35,7 +35,7 @@ function generateHTML(team) {
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">ID: ${member.id}</li>
-                <li class="list-group-item">Email: ${member.email}</li>
+                <li class="list-group-item">Email: <a href="mailto:email@example.com">${member.email}</a></li>
               </ul>
             </div>`
           }).join("")}
