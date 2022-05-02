@@ -94,9 +94,7 @@ const buildTeam = function () {
     .then((data) => {
       if (data.teammember == "Add an Engineer") {
         addEngineer();
-
-      }
-      else if (data.teammember == "Add an Intern") {
+      } else if (data.teammember == "Add an Intern") {
         addIntern();
       } else {
         const html = templateHTML(team);

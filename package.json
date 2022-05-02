@@ -22,6 +22,7 @@
   "homepage": "https://github.com/kaitdiaz01/Team-Profile-Generator#readme",
   "dependencies": {
     "inquirer": "^8.2.2",
-    "jest": "^28.0.0"
+    "jest": "^28.0.3",
+    "readme-md-generator": "^1.0.0"
   }
 }

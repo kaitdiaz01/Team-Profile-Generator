@@ -2,8 +2,10 @@
 // if statement to say if intern is chosen then render intern card template literal and call this function to retunr template literal into generatehtml()
 // would do the same for engineerCard()
 
+
+
 function generateHTML(team) {
-  console.log(team);
+
   return `<!DOCTYPE html>
     <html lang="en">
       <head>
